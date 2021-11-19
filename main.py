@@ -31,7 +31,7 @@ body = {
     "number" : "你的学号",
     "reason" : "无",
     "recordTime" : str(round(time.time()) * 1000),
-    "token" : "a657cd4e0e83b19cb2cbdb4c064d6630"
+    "token" : "你的token，可以通过fiddler获取"
 }
 payload = json.dumps(body)
 url = r'https://anti-epidemic.ecnu.edu.cn/clock/mini/record'
